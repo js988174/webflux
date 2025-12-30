@@ -1,6 +1,6 @@
 package com.example.webflux.model.llmclient;
 
-public enum LimType {
+public enum LlmType {
     GPT,
     GEMINI
 }

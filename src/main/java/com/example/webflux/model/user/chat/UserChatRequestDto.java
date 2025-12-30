@@ -1,6 +1,6 @@
 package com.example.webflux.model.user.chat;
 
-import com.example.webflux.model.llmclient.LimModel;
+import com.example.webflux.model.llmclient.LlmModel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -19,7 +19,7 @@ public class UserChatRequestDto implements Serializable {
     private static final long serialVersionUID = 4995931142869792388L;
 
     private String request;
-    private LimModel limModel;
+    private LlmModel limModel;
 
 
 }

@@ -5,11 +5,11 @@ import lombok.Getter;
 
 @AllArgsConstructor
 @Getter
-public enum LimModel {
-    GPT_40("gpt-40", LimType.GPT),
-    GEMINI_2_0_FLASH("gemini-2.0-flash", LimType.GEMINI);
+public enum LlmModel {
+    GPT_40("gpt-40", LlmType.GPT),
+    GEMINI_2_0_FLASH("gemini-2.0-flash", LlmType.GEMINI);
 
     private final String code;
-    private final LimType limType;
+    private final LlmType limType;
 
 }
